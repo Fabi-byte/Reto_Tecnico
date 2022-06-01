@@ -11,6 +11,18 @@ terraform {
   }
 
   required_version = ">= 0.14.9"
+
+
+cloud {
+    organization = "fabi-byte"
+
+    workspaces {
+      name = "Prueba_Tecnica"
+    }
+  }
+
+
+
 }
 
 
