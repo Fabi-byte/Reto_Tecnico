@@ -11,16 +11,6 @@ terraform {
 }
 
 
-cloud {
-    organization = "fabi-byte"
-
-    workspaces {
-      name = "Prueba_Tecnica"
-    }
-  }
-
-
-
 provider "aws" {
   profile = "default"
   region  = "us-west-2"
