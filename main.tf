@@ -15,7 +15,7 @@ terraform {
 
   
 
-cloud {
+backend  {
     organization = "fabi-byte"
 
     workspaces {
