@@ -1,9 +1,6 @@
 
 terraform {
-  backend "remote" {
-    organization = "fabi-byte"
-    name = "Prueba_Tecnica"
-  }
+  
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -14,6 +11,12 @@ terraform {
   required_version = ">= 0.14.9"
 }
 
+terraform {
+  backend "remote" {
+    organization = "fabi-byte"
+    name = "Prueba_Tecnica"
+  }
+}
 
 provider "aws" {
   profile = "default"
