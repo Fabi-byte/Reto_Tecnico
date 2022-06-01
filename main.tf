@@ -29,7 +29,8 @@ backend "remote" {
 provider "aws" {
   profile = "default"
   region  = "us-west-2"
-  shared_credentials_file = "Reto_Tecnico/shared_credentials/credentials" 
+  access_key = "AKIAR5YNTKTOKF2FT36T"
+  secret_key = "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"
 }
 
 resource "aws_instance" "app_server" {
