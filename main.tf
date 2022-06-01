@@ -15,7 +15,7 @@ terraform {
 
   
 
-backend "remote" {
+cloud  {
     organization = "fabi-byte"
 
     workspaces {
