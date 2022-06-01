@@ -83,8 +83,3 @@ resource "aws_s3_bucket_object" "priv_cat1" {
 
 
 
-
-resource "github_repository" "Prueba_tecnica" {
-  name        = "Prueba_Tecnica"
-  description = "Repositorio para prueba tecnica de terraform"
-}
