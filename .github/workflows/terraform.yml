@@ -79,6 +79,10 @@ jobs:
     - name: Terraform Init
       id: init
       run: terraform init 
+      
+    - name: Terraform Validate
+      id: validate
+      run: terraform validate -no-color 
 
     # Checks that all Terraform configuration files adhere to a canonical format
     - name: Terraform Format
