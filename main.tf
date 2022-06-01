@@ -1,5 +1,9 @@
 
 terraform {
+  backend "remote" {
+    organization = "fabi-byte"
+    name = "Prueba_Tecnica"
+  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
